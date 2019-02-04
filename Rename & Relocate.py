@@ -38,7 +38,7 @@ logger_location = './log.log'
 #Configure Logger
 log_format = "[%(levelname)s]: %(asctime)s - %(message)s"
 logging.basicConfig(filename=logger_location, level=logging.DEBUG,
-format = log_format, filemode = 'a')
+                    format = log_format, filemode = 'a')
 logger = logging.getLogger()
 
 #Set working directory
