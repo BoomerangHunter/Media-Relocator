@@ -45,7 +45,7 @@ logger = logging.getLogger()
 os.chdir(download_location)
 
 #Defines regular expressions for later use
-format_expression = r"\[\w+\] (.+?)- (\d{1,2}).*(\.mkv)"
+format_expression = r"\[\w+\] (.+?)- (\d{1,2}?\.\d).*(\.mkv)"
 season_expression = r"(.+?S)(\d) S01(.+?)(\.mkv)"
 
 
